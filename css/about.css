@@ -1,0 +1,76 @@
+/* About page styles */
+.about-section {
+  padding: var(--space-16) 0;
+  background-color: white;
+}
+
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 var(--space-4);
+}
+
+.about-header {
+  text-align: center;
+  margin-bottom: var(--space-12);
+}
+
+.about-header h1 {
+  font-size: 2.5rem;
+  color: var(--color-neutral-900);
+  margin-bottom: var(--space-4);
+}
+
+.about-content {
+  color: var(--color-neutral-700);
+  line-height: 1.7;
+}
+
+.about-section p {
+  margin-bottom: var(--space-6);
+  font-size: 1.125rem;
+}
+
+.about-section h2 {
+  font-size: 1.75rem;
+  color: var(--color-neutral-800);
+  margin: var(--space-8) 0 var(--space-4);
+}
+
+.about-features {
+  background: var(--color-neutral-50);
+  padding: var(--space-6);
+  border-radius: var(--radius-lg);
+  margin: var(--space-8) 0;
+}
+
+.about-features ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about-features li {
+  margin-bottom: var(--space-4);
+  padding-left: var(--space-6);
+  position: relative;
+}
+
+.about-features li::before {
+  content: "✓";
+  color: var(--color-primary-600);
+  position: absolute;
+  left: 0;
+  font-weight: bold;
+}
+
+.about-cta {
+  text-align: center;
+  margin: var(--space-12) 0;
+}
+
+.about-team {
+  font-style: italic;
+  color: var(--color-neutral-600);
+  text-align: right;
+  margin-top: var(--space-8);
+}

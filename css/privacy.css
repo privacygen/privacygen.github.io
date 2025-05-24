@@ -1,0 +1,99 @@
+/* Privacy page styles */
+.privacy-section {
+  padding: var(--space-16) 0;
+  background-color: white;
+}
+
+.privacy-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 var(--space-4);
+}
+
+.privacy-header {
+  text-align: center;
+  margin-bottom: var(--space-12);
+}
+
+.privacy-header h1 {
+  font-size: 2.5rem;
+  color: var(--color-neutral-900);
+  margin-bottom: var(--space-4);
+}
+
+.privacy-content {
+  color: var(--color-neutral-700);
+  line-height: 1.7;
+}
+
+.privacy-content h2 {
+  font-size: 1.75rem;
+  color: var(--color-neutral-800);
+  margin: var(--space-8) 0 var(--space-4);
+}
+
+.privacy-content h3 {
+  font-size: 1.25rem;
+  color: var(--color-neutral-800);
+  margin: var(--space-6) 0 var(--space-2);
+}
+
+.privacy-content p {
+  margin-bottom: var(--space-4);
+  font-size: 1.125rem;
+}
+
+.privacy-content ul {
+  margin-bottom: var(--space-6);
+  padding-left: var(--space-6);
+}
+
+.privacy-content li {
+  margin-bottom: var(--space-2);
+  position: relative;
+}
+
+.privacy-content li::before {
+  content: "✔";
+  color: var(--color-primary-600);
+  position: absolute;
+  left: -1.5em;
+}
+
+.privacy-date {
+  color: var(--color-neutral-600);
+  font-style: italic;
+  margin-bottom: var(--space-8);
+}
+
+.privacy-section-block {
+  background: var(--color-neutral-50);
+  padding: var(--space-6);
+  border-radius: var(--radius-lg);
+  margin: var(--space-6) 0;
+}
+
+.privacy-contact {
+  margin-top: var(--space-8);
+  padding-top: var(--space-8);
+  border-top: 1px solid var(--color-neutral-200);
+}
+
+.privacy-contact a {
+  color: var(--color-primary-600);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+.privacy-contact a:hover {
+  color: var(--color-primary-700);
+}
+
+.privacy-footer {
+  margin-top: var(--space-8);
+  padding-top: var(--space-4);
+  border-top: 1px solid var(--color-neutral-200);
+  font-style: italic;
+  color: var(--color-neutral-600);
+  text-align: center;
+}

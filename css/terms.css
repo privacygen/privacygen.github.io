@@ -1,0 +1,112 @@
+/* Terms page styles */
+.terms-section {
+  padding: var(--space-16) 0;
+  background-color: white;
+}
+
+.terms-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 var(--space-4);
+}
+
+.terms-header {
+  text-align: center;
+  margin-bottom: var(--space-12);
+}
+
+.terms-header h1 {
+  font-size: 2.5rem;
+  color: var(--color-neutral-900);
+  margin-bottom: var(--space-4);
+}
+
+.terms-content {
+  color: var(--color-neutral-700);
+  line-height: 1.7;
+}
+
+.terms-content h2 {
+  font-size: 1.75rem;
+  color: var(--color-neutral-800);
+  margin: var(--space-8) 0 var(--space-4);
+}
+
+.terms-content h3 {
+  font-size: 1.25rem;
+  color: var(--color-neutral-800);
+  margin: var(--space-6) 0 var(--space-2);
+}
+
+.terms-content p {
+  margin-bottom: var(--space-4);
+  font-size: 1.125rem;
+}
+
+.terms-content ul {
+  margin-bottom: var(--space-6);
+  padding-left: var(--space-6);
+}
+
+.terms-content li {
+  margin-bottom: var(--space-2);
+  position: relative;
+}
+
+.terms-content li::before {
+  content: "✔";
+  color: var(--color-primary-600);
+  position: absolute;
+  left: -1.5em;
+}
+
+.terms-date {
+  color: var(--color-neutral-600);
+  font-style: italic;
+  margin-bottom: var(--space-8);
+}
+
+.terms-section-block {
+  background: var(--color-neutral-50);
+  padding: var(--space-6);
+  border-radius: var(--radius-lg);
+  margin: var(--space-6) 0;
+}
+
+.terms-warning {
+  background: var(--color-warning-50);
+  border-left: 4px solid var(--color-warning-500);
+  padding: var(--space-4) var(--space-6);
+  margin: var(--space-6) 0;
+  border-radius: var(--radius);
+}
+
+.terms-warning p {
+  margin: 0;
+  color: var(--color-warning-800);
+}
+
+.terms-contact {
+  margin-top: var(--space-8);
+  padding-top: var(--space-8);
+  border-top: 1px solid var(--color-neutral-200);
+}
+
+.terms-contact a {
+  color: var(--color-primary-600);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+.terms-contact a:hover {
+  color: var(--color-primary-700);
+}
+
+.terms-footer {
+  margin-top: var(--space-8);
+  padding-top: var(--space-4);
+  border-top: 1px solid var(--color-neutral-200);
+  font-style: italic;
+  color: var(--color-neutral-600);
+  text-align: center;
+}

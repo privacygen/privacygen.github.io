@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="https://ucarecdn.com/4bcc2a60-c582-435f-8bfd-226f257b392a/-/preview/512x512/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - PrivacyGen</title>
+    <link rel="stylesheet" href="/css/variables.css">
+    <link rel="stylesheet" href="/css/typography.css">
+    <link rel="stylesheet" href="/css/layout.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/contact.css">
+    <link rel="stylesheet" href="/style.css">
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FC8TXKN1JR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FC8TXKN1JR');
+</script>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3580756029368885"
+     crossorigin="anonymous"></script>
+    <meta name="google-adsense-account" content="ca-pub-3580756029368885">
+  </head>
+  <body>
+    <header id="main-header">
+      <div class="container">
+        <div class="header-content">
+          <div class="logo-container">
+            <img src="https://ucarecdn.com/4bcc2a60-c582-435f-8bfd-226f257b392a/-/preview/512x512/" alt="PrivacyGen Logo" class="logo">
+            <h1>Privacy Policy Generator</h1>
+          </div>
+          <nav class="main-nav">
+            <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="/#generator">Privacy Policy</a></li>
+              <li><a href="/#article-section">How To</a></li>
+              <li><a href="/#faq-section">FAQ</a></li>
+              <li><a href="/contact.html" class="active">Contact</a></li>
+            </ul>
+          </nav>
+          <button class="mobile-menu-toggle" aria-label="Toggle Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="contact-section">
+        <div class="contact-container">
+          <div class="contact-header">
+            <h1>Contact Us – PrivacyGen</h1>
+            <p>Have questions, feedback, or need support? We'd love to hear from you!</p>
+          </div>
+          
+          <div class="contact-content">
+            <div class="contact-info">
+              <h2>How to Reach Us</h2>
+              <div class="contact-methods">
+                <div class="contact-method">
+                  <h3>📧 Email</h3>
+                  <p><a href="mailto:vadaviyarohit785@gmail.com">vadaviyarohit785@gmail.com</a></p>
+                </div>
+                
+                <div class="contact-method">
+                  <h3>🐛 Report a Bug or Request a Feature</h3>
+                  <p>If you've encountered an issue or have an idea to improve PrivacyGen, please email us or open an issue on our GitHub repository.</p>
+                </div>
+              </div>
+
+              <h2>We're Here to Help</h2>
+              <p>Need assistance generating your privacy policy? Found an error in our tool? Want to suggest a new feature?</p>
+              <p>Don't hesitate to reach out—we're committed to making PrivacyGen better for you.</p>
+
+              <div class="contact-note">
+                <h2>No Spam, Just Support</h2>
+                <p>We respect your privacy (of course!). We'll only use your contact details to respond to your inquiry and won't share them with third parties.</p>
+              </div>
+
+              <div class="contact-team">
+                <p>Thanks for using PrivacyGen!</p>
+                <p>— The PrivacyGen Team</p>
+              </div>
+            </div>
+
+            <div class="contact-form">
+              <form id="contactForm">
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="subject">Subject</label>
+                  <input type="text" id="subject" name="subject" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea id="message" name="message" required></textarea>
+                </div>
+
+                <button type="submit" class="submit-button">Send Message</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <img src="https://ucarecdn.com/4bcc2a60-c582-435f-8bfd-226f257b392a/-/preview/512x512/" alt="PrivacyGen Logo">
+          <h3>Privacy Policy Generator</h3>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 PrivacyGen. All rights reserved.</p>
+        </div>
+        <div class="footer-links">
+          <a href="/about.html">About</a>
+          <a href="/contact.html">Contact</a>
+          <a href="/terms.html">Terms</a>
+          <a href="/privacy.html">Privacy</a>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="/js/header.js"></script>
+    <script>
+      document.getElementById('contactForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        const email = 'vadaviyarohit785@gmail.com';
+        const subject = encodeURIComponent(document.getElementById('subject').value);
+        const body = encodeURIComponent(
+          `Name: ${document.getElementById('name').value}\n` +
+          `Email: ${document.getElementById('email').value}\n\n` +
+          `Message:\n${document.getElementById('message').value}`
+        );
+        
+        window.location.href = `mailto:${email}?subject=${subject}&body=${body}`;
+      });
+    </script>
+  </body>
+</html>
