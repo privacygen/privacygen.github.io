@@ -17,26 +17,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const question = item.querySelector('.faq-question');
     const answer = item.querySelector('.faq-answer');
     
-    question?.addEventListener('click', () => {
-      // Close all other FAQs
-      faqItems.forEach(otherItem => {
-        if (otherItem !== item && otherItem.classList.contains('active')) {
-          otherItem.classList.remove('active');
-          const otherAnswer = otherItem.querySelector('.faq-answer');
-          if (otherAnswer) {
-            otherAnswer.style.maxHeight = '0';
-          }
-        }
-      });
-      
-      // Toggle current FAQ
-      item.classList.toggle('active');
-      if (answer) {
-        answer.style.maxHeight = item.classList.contains('active') 
-          ? `${answer.scrollHeight}px` 
-          : '0';
-      }
-    });
+    if (question && answer) {
+      // Show all answers by default
+      answer.style.display = 'block';
+    }
   });
 
   // Toggle advanced options
